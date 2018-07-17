@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>blog</name>
-	<description>a blog make from trax</description>
+	<description></description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
