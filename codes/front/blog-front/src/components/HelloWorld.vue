@@ -80,16 +80,23 @@
         </a>
       </li>
     </ul>
+    <el-button type="danger">危险按钮</el-button>
+    <el-select type="danger">危险按钮</el-select>
   </div>
 </template>
 
 <script>
+import { Button, Select } from 'element-ui'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  component: {
+    ElButton: Button,
+    ElSelect: Select
   }
 }
 </script>
